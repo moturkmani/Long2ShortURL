@@ -23,7 +23,7 @@ This Python script provides a GUI application to shorten long URLs into compact 
 
 1. Clone the repository or download the script:
    ```bash
-   git clone https://github.com/your-username/url-shortener.git
+   git clone https://github.com/moturkmani/url-shortener.git
    cd url-shortener
    ```
 
@@ -67,11 +67,3 @@ url-shortener/
 - **Invalid Input**: Ensure you enter a properly formatted URL.
 - **Network Issues**: Check your internet connection if the script fails to connect to the API.
 - **Dependencies**: Verify that the `requests` library is installed.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Contributions
-
-Feel free to submit issues or pull requests for additional features or improvements.
