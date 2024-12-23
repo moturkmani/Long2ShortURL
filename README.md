@@ -21,13 +21,8 @@ This Python script provides a GUI application to shorten long URLs into compact 
 
 ### Running the Script
 
-1. Clone the repository or download the script:
-   ```bash
-   git clone https://github.com/moturkmani/url-shortener.git
-   cd url-shortener
-   ```
-
-2. Run the script:
+1. Download the script from here:
+2. Open Powershell and Run the script:
    ```bash
    python long2shortURL.py
    ```
