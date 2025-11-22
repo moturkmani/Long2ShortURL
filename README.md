@@ -28,7 +28,11 @@ This Python script provides a GUI application to shorten long URLs into compact 
    ```
 
 3. Enter a long URL in the text field and click **Shorten URL**.
+   <img width="903" height="239" alt="image" src="https://github.com/user-attachments/assets/2c0e2b8b-ebf1-40d9-a187-f570569074c7" />
+
 4. A new window will display the shortened URL, which can be copied easily.
+   <img width="400" height="229" alt="image" src="https://github.com/user-attachments/assets/b70613c4-8334-4594-8463-64d6b08a17ed" />
+
 
 ### Example Usage
 
