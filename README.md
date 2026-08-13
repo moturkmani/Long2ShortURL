@@ -1,69 +1,119 @@
-# URL Shortener
+<div align="center">
 
-This Python script provides a GUI application to shorten long URLs into compact versions using the TinyURL service. The tool is user-friendly and allows users to easily input a long URL, generate a shortened URL, and copy it to their clipboard.
+# 🔗 URL Shortener
 
-## Features
+**A clean, modern desktop GUI for shortening long URLs — powered by the TinyURL API.** ⚡
 
-- **TinyURL Integration**: Utilizes the TinyURL API to generate shortened URLs.
-- **Interactive GUI**: Built with `Tkinter` for a simple and intuitive interface.
-- **Error Handling**: Alerts users about invalid inputs or network issues.
-- **Copy Functionality**: Copy the generated shortened URL directly from the app.
+Paste a URL, hit shorten, and the short link is copied to your clipboard automatically.
 
-## How to Use
+<img src="assets/image1.png" alt="URL Shortener" width="400">
 
-### Prerequisites
+</div>
 
-- Python 3.x installed on your system.
-- `requests` library installed. Install it via pip if you don't have it:
-  ```bash
-  pip install requests
-  ```
+---
 
-### Running the Script
+## ✨ Features
 
-1. Download the script from here:
-2. Open Powershell and Run the script:
+| | |
+|---|---|
+| ✂️ **One-Click Shortening** | Paste a long URL and shorten it instantly via the TinyURL API |
+| 📋 **Auto-Copy to Clipboard** | The shortened URL is copied automatically the moment it's ready |
+| 🖱️ **Manual Copy Options** | Use the **Copy** button, or select the text and copy it yourself |
+| 🖥️ **Centered Window** | Opens centered on your screen, no matter your monitor setup |
+| 📐 **Resizable & Roomy** | Wide enough to comfortably fit long URLs, resizable in both directions |
+| 🎨 **Modern, Minimal UI** | Clean flat design with hover states — no clutter |
+| ⚙️ **Zero Dependencies** | Built entirely with Python's standard library — no extra installs needed |
+
+---
+
+## 🚀 Getting Started
+
+### System Requirements
+
+- 🐍 Python 3.x
+- 🪟 `tkinter` (comes pre-installed with Python on most systems)
+- 🌐 An active internet connection (required to reach the TinyURL API)
+
+### Installation & Run
+
+1. **Clone the repo**
    ```bash
-   python long2shortURL.py
+   git clone https://github.com/moturkmani/long2shortURL.git
+   cd long2shortURL
    ```
 
-3. Enter a long URL in the text field and click **Shorten URL**.
-   <img width="903" height="239" alt="image" src="https://github.com/user-attachments/assets/2c0e2b8b-ebf1-40d9-a187-f570569074c7" />
-
-4. A new window will display the shortened URL, which can be copied easily.
-   
-   <img width="400" height="229" alt="image" src="https://github.com/user-attachments/assets/b70613c4-8334-4594-8463-64d6b08a17ed" />
-
-
-### Example Usage
-
-1. Enter a URL in the input field:
-   ```
-   https://www.example.com/a-very-long-url-to-shorten
+2. **Run it**
+   ```bash
+   python url_shortener.py
    ```
 
-2. Click the **Shorten URL** button.
-3. View the shortened URL in a new window:
-   ```
-   http://tinyurl.com/shortened-url
-   ```
-4. Use the **Copy URL** button to copy the shortened URL to your clipboard.
+   No dependencies to install — it runs with a standard Python installation.
 
-## File Structure
+---
+
+## 📖 Usage
+
+1. **Paste** your long URL into the input field
+2. Click **Shorten URL** (or press **Enter**)
+3. The shortened link appears in the result field and is **automatically copied to your clipboard** ✅
+4. Need it again? Click **Copy**, or select the text in the result field and copy it manually
+
+---
+
+## 🗂️ File Structure
 
 ```
 url-shortener/
-├── long2shortURL.py   # Main script for URL shortening
+├── url_shortener.py   # 🧠 Main application script
+└── assets/
+    └── image1.png      # 🖼️ App screenshot
 ```
 
-## Customization
+---
 
-- **API**: Replace the TinyURL API endpoint with another URL shortening service if desired.
-- **GUI Elements**: Enhance the UI with additional features like a history of shortened URLs.
-- **Input Validation**: Expand validation to include edge cases or support for specific URL formats.
+## 🩹 Troubleshooting
 
-## Troubleshooting
+| Issue | Fix |
+|---|---|
+| ❌ Error shortening URL | Check your internet connection — the app needs to reach the TinyURL API |
+| 🚫 Nothing happens on click | Make sure a URL was actually entered in the input field |
+| 📋 Clipboard didn't update | Try clicking the **Copy** button manually |
 
-- **Invalid Input**: Ensure you enter a properly formatted URL.
-- **Network Issues**: Check your internet connection if the script fails to connect to the API.
-- **Dependencies**: Verify that the `requests` library is installed.
+---
+
+## 📝 Notes
+
+- ⏳ TinyURL occasionally shows a brief interstitial "redirecting" page before landing on the destination site — this is standard TinyURL behavior on their end, not something this app controls.
+- 🔗 No API key or account is required — this app uses TinyURL's free, anonymous shortening endpoint.
+
+---
+
+## 📜 License
+MIT License
+
+Copyright (c) 2026 Mojtaba "Mo" Turkmani
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+---
+
+<div align="center">
+
+Made with 🐍 + ❤️ for quick, clutter-free link sharing
+
+</div>
